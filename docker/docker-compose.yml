@@ -4,9 +4,9 @@ services:
     container_name: mysql_container
     image: mysql
     environment:
-      MYSQL_DATABASE: 'db'
-      MYSQL_USER: ${MYSQL_USER:-ITEM_USER}
-      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-PASSWORD}
+      MYSQL_DATABASE: 'book'
+      MYSQL_USER: ${MYSQL_USER:-user}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:-book}
       MYSQL_RANDOM_ROOT_PASSWORD: "yes"
     ports:
       - '3306:3306'

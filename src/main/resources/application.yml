@@ -6,9 +6,9 @@ spring:
     name: library
 
   datasource:
-    url: jdbc:mysql://localhost:3306/db
-    username: ITEM_USER
-    password: PASSWORD
+    url: jdbc:mysql://localhost:3306/book
+    username: user
+    password: book
 
   jpa:
     show-sql: true
